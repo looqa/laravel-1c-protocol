@@ -87,7 +87,7 @@ class CatalogController extends BaseController
         }
 
         if (! $this->checkCSRF($mode)) {
-            return $this->failure('CSRF token mismatch');
+            //return $this->failure('CSRF token mismatch');
         }
 
         if (! $this->userLogin()) {
