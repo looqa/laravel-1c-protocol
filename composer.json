@@ -1,5 +1,5 @@
 {
-  "name": "mavsan/laravel-1c-protocol",
+  "name": "looqey/laravel-1c-protocol",
   "description": "Easy solution for 1C CommerceML exchange with a laravel website",
   "type": "library",
   "license": "MIT",
