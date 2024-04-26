@@ -332,7 +332,7 @@ class CatalogController extends BaseController
                                   .', parameter filename is empty');
         }
 
-        $fullPath = $this->getFullPathToFile($fileName, false);
+        $fullPath = $this->getFullPathToFile($fileName, config('protocolExchange1C.clearOldFiles', false));
 
         $fData = $this->getFileGetData();
 
